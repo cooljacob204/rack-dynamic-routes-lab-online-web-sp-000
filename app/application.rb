@@ -1,5 +1,8 @@
 class Application
   def call(env)
+    @@songs = []
+    
+    
     resp = Rack::Response.new
     req = Rack::Request.new(env)
     
