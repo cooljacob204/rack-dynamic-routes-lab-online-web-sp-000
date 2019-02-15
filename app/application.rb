@@ -10,5 +10,8 @@ class Application
       
       resp.write song.item
     end
+    
+    resp.finish
+
   end
 end
